@@ -22,17 +22,17 @@ public class Task {
     ) {
         this.name = name;
         this.duration = duration;
-        System.out.println("Call task constructor");
+//        System.out.println("Call task constructor");
     }
 
     @PostConstruct
     public void postConstruct() {
-        System.out.println("task post construct method");
+//        System.out.println("task post construct method");
     }
 
     @PreDestroy
     public void preDestroy() {
-        System.out.println("task pre destory method");
+//        System.out.println("task pre destory method");
     }
 
     public String getName() {
